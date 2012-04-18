@@ -1,11 +1,12 @@
 How to use it?
-
 In the input element we need to add an auxvalue with the text for the placeholder
-
-I.E.
 
 HTML
 <input type="text" value="" id="fullname" name="fullname" auxvalue="fullname" />
 
 SCRIPT
 $("#fullname").ajcPlaceHolder();
+
+That's it.
+
+Thanks.
