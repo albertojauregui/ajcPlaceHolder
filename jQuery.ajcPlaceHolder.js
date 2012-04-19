@@ -5,7 +5,7 @@
       var defvalue = $this.attr("auxvalue") || "";
       if($.trim($this.val()) == ""){$this.val(defvalue);}
       $this.focus(function() {if($this.val() == defvalue) {$this.val("");}});
-      $this.blur(function() {if($.trim($this.val()) == "") {$this.val() = defvalue;}});
+      $this.blur(function() {if($.trim($this.val()) == "") {$this.val(defvalue)}});
     });
   }
  })(jQuery);
